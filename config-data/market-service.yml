@@ -1,6 +1,11 @@
 server:
   port: 8001
 
+spring:
+  jpa:
+    show-sql: true
+    hibernate: update
+
 eureka:
   client:
     fetch-registry: true
