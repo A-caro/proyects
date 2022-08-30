@@ -1,5 +1,9 @@
 server:
   port: 8001
+spring:
+  jpa:
+    show-sql: true
+    hibernate.ddl-auto: update
 
 eureka:
   client:
