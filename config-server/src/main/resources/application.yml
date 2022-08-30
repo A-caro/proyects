@@ -7,7 +7,7 @@ spring:
       server:
         git:
           default-label: master
-          url: https://github.com/A-caro/proyects.git
+          uri: https://github.com/A-caro/proyects.git
           search-paths: config-data
 
   application:
