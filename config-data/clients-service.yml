@@ -1,5 +1,9 @@
 server:
   port: 8003
+spring:
+  jpa:
+    show-sql: true
+    hibernate: update
 
 eureka:
   client:
