@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          default-label: other
+          default-label: master
           url: https://github.com/A-caro/proyects.git
           search-paths: config-data
 
